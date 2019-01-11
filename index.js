@@ -12,7 +12,8 @@ app.get("/", function (req, res) {
 
 //POST
 app.post("/", function (req, res) {
-    
+    console.log("Click");
+    res.send("Click");
 });
 
 // LISTEN
